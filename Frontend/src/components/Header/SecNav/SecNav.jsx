@@ -17,14 +17,9 @@ export const SecNav = () => {
             Women Western
           </a>
           <div className="dropdown-menu">
-            <a href="/women-western/tops">Tops</a>
-            <a href="/women-western/dresses">Dresses</a>
-            <a href="/women-western/sweaters">Sweaters</a>
+            <a href="/women-western/tops"> T-Shirts</a>
+            <a href="/women-western/dresses">Skirts</a>
             <a href="/women-western/jeans">Jeans</a>
-            <a href="/women-western/jeggings">Jeggings</a>
-            <a href="/women-western/palazzos">Palazzos</a>
-            <a href="/women-western/shorts">Shorts</a>
-            <a href="/women-western/skirts">Skirts</a>
           </div>
         </div>
 
@@ -46,19 +41,19 @@ export const SecNav = () => {
 
         {/* All Women Ethnic Dropdown */}
         <div className="menu-item">
-          <a href="/kids">
-            <img src={Ethnic} alt="Kids" />
+          <a href="/ethnic">
+            <img src={Ethnic} alt="ethnic" />
             Ethnic Wear
           </a>
           <div className="dropdown-menu">
             <h4>
-              <a href="/kids/saree">Side Open Tops</a>
-              <a href="/kids/kurtis">Anarkali Tops</a>
-              <a href="/kids/material">Palazzo’s</a>
-              <a href="/kids/duppatta">Duppatta</a>
-              <a href="/kids/straigth">Straight Pant</a>
-              <a href="/kids/cigar">Cigar Pant</a>
-              <a href="/kids/ready">Ready-Made Blouses</a>
+              <a href="ethnic/sideopentop">Side Open Tops</a>
+              <a href="/ethnic/anarkali">Anarkali Tops</a>
+              <a href="/ethnic/palazzo">Palazzo’s</a>
+              <a href="/ethnic/duppatta">Duppatta</a>
+              <a href="/ethnic/straigth">Straight Pant</a>
+              <a href="/ethnic/cigar">Cigar Pant</a>
+              <a href="/ethnic/ready">Ready-Made Blouses</a>
             </h4>
           </div>
         </div>
