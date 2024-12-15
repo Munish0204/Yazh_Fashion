@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "./Header.css";
 import data from "./indiaStatesDistricts.json"; // Import JSON file for districts
-import {SecNav} from "../../components/Header/SecNav/SecNav"
+import { SecNav } from "../../components/Header/SecNav/SecNav";
+import logo  from "../../assets/Yazhlogo.jpg";
 
 const Header = () => {
   const [selectedDistrict, setSelectedDistrict] = useState(""); // Store selected district
@@ -16,7 +17,8 @@ const Header = () => {
     <>
       <header className="header">
         {/* Logo */}
-        <div className="logo">YAZH</div>
+        
+          <img className="logo" src={logo} alt="" />
 
         {/* Location Input */}
         <div className="header-location">
@@ -45,18 +47,23 @@ const Header = () => {
           <a href="/">🏠 Home</a>
           <a href="/products">🛍️ Products</a>
           <a href="/profile">👤 Profile</a>
+          <a href="/Favorite">❤️ Favorite</a>
           <a href="/cart"></a>
         </nav>
 
         {/* Cart Icon */}
         <div className="header-icons">
-          <a href="/cart" className="cart-icon">🛒 Cart</a>0.
+
+
+          <a href="/cart" className="cart-icon">
+            🛒 Cart
+          </a>
         </div>
       </header>
 
       {/* Secondary Navbar */}
       <nav className="secondary-navbar">
-            <SecNav />
+        <SecNav />
       </nav>
     </>
   );

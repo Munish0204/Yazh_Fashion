@@ -1,22 +1,20 @@
-import React from "react";
-import Header from "./components/Header/Header"; // Adjust the path based on your project structure
+import Header from "./components/Header/Header";
+import Home from "./components/Home/Home";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
+
       {/* Header */}
       <Header />
 
       {/* Main Content */}
-      <main className="main-content">
-        <h1>Welcome to Yazh Fashion</h1>
-        <p>Explore our trendy collections and amazing offers!</p>
-      </main>
-      
+      <Home />      
+
       {/* Footer */}
       <footer className="footer">
-        <p>© 2024 Yash Fashion . All rights reserved.</p>
+        <p>© 2024 Yazh Fashion. All rights reserved.</p>
       </footer>
     </div>
   );
