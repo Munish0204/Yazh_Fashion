@@ -50,7 +50,7 @@ const Header = () => {
 
         {/* Cart Icon */}
         <div className="header-icons">
-          <a href="/cart" className="cart-icon">🛒 Cart</a>
+          <a href="/cart" className="cart-icon">🛒 Cart</a>0.
         </div>
       </header>
 
