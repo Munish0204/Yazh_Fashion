@@ -56,7 +56,7 @@ const Header = () => {
 
       {/* Secondary Navbar */}
       <nav className="secondary-navbar">
-        <SecNav/>
+            <SecNav />
       </nav>
     </>
   );
