@@ -12,19 +12,13 @@ body {
   min-height: 100vh;
 }
 
-.main-content {
-  flex: 1;
-  padding: 20px;
-  text-align: center;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 20px;
-  border-radius: 8px;
-}
 
+
+/* Footer */
 .footer {
   text-align: center;
   padding: 10px;
-  background-color: #f8f8f8;
-  border-top: 1px solid #ddd;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
 }

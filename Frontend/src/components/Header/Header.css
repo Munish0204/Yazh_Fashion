@@ -6,7 +6,11 @@
   padding: 20px;
   background-color: #ffb300;
   animation: fadeIn 0.5s ease-out;
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
 }
+
 
 .logo {
   font-size: 24px;
@@ -74,7 +78,7 @@
 }
 
 .nav-links a:hover {
-  color: #ffffff;
+  color: red;
   animation: moveUp 0.3s ease forwards;
 }
 
@@ -93,7 +97,7 @@
 }
 
 .cart-icon:hover {
-  color: #ffffff;
+  color: red;
   animation: bounce 0.5s ease-in-out;
 }
 

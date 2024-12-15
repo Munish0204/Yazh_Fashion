@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   gap: 120px;
-  
   padding: 15px 0;
   border-top: 1px solid #ddd;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
@@ -81,7 +80,7 @@
 
 /* Hover effect for dropdown links */
 .dropdown-menu a:hover {
-  background: linear-gradient(90deg, #ff758c, #ff7eb3); /* Gradient highlight */
+  background-color: #d68600; /* Gradient highlight */
   color: #fff;
 }
 
