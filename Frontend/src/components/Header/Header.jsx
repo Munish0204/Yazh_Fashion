@@ -58,7 +58,7 @@ const Header = () => {
         </div>
       </header>
 
-      {/* Secondary Navbar */}
+      {/* Secondary Navbar
       <nav className="secondary-navbar">
         <a href="/women-western">
           <img src={Western} alt="Women Western" />
@@ -80,7 +80,7 @@ const Header = () => {
           <img src={Sports} alt="Sports Wear" />
           Sports Wear
         </a>
-      </nav>
+      </nav> */}
     </>
   );
 };
