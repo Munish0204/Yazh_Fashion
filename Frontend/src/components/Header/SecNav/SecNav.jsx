@@ -76,7 +76,7 @@ export const SecNav = () => {
     <div className="menu-item">
   <a href="/inner">
     <img src={inner} alt="inner" />
-    inner Wear
+    Inner Wear
   </a>
   <div className="dropdown-menu">
     <h4>
