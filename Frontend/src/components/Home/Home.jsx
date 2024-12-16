@@ -85,6 +85,7 @@ function Home() {
             <p>Description of the product goes here.</p>
             <button className="card-button">View More</button>
           </div>
+<<<<<<< HEAD
         </div>
 
         <div className="card">
@@ -177,6 +178,8 @@ function Home() {
             <button className="card-button">View More</button>
           </div>
         </div>
+=======
+>>>>>>> db7d36170960013edfe2d512ab247edc08f2e8fc
       </div>
     </main>
   );
