@@ -48,17 +48,10 @@ const Header = () => {
           <a href="/products">🛍️ Products</a>
           <a href="/profile">👤 Profile</a>
           <a href="/Favorite">❤️ Favorite</a>
-          <a href="/cart"></a>
+          <a href="/cart"> 🛒 Cart</a>
         </nav>
 
-        {/* Cart Icon */}
-        <div className="header-icons">
-
-
-          <a href="/cart" className="cart-icon">
-            🛒 Cart
-          </a>
-        </div>
+    
       </header>
 
       {/* Secondary Navbar */}
