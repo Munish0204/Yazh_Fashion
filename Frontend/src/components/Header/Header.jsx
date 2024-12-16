@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Header.css";
 import data from "./indiaStatesDistricts.json"; // Import JSON file for districts
-import { SecNav } from "../../components/Header/SecNav/SecNav";
-import logo  from "../../assets/Yazhlogo.jpg";
+import logo from "../../assets/Yazhlogo.jpg";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [selectedDistrict, setSelectedDistrict] = useState(""); // Store selected district
@@ -17,9 +17,7 @@ const Header = () => {
     <>
       <header className="header">
         {/* Logo */}
-        
-          <img className="logo" src={logo} alt="" />
-
+        <h2 className="logo">Yazh</h2>
         {/* Location Input */}
         <div className="header-location">
           {/* District Dropdown */}
@@ -44,20 +42,15 @@ const Header = () => {
 
         {/* Navigation */}
         <nav className="nav-links">
-          <a href="/">🏠 Home</a>
-          <a href="/products">🛍️ Products</a>
-          <a href="/profile">👤 Profile</a>
+          <Link to="/">🏠 Home</Link>
+          <Link to="/Product">🛍️ Products</Link>
+          <Link to="/LoginPage">👤 Profile</Link>
           <a href="/Favorite">❤️ Favorite</a>
           <a href="/cart"> 🛒 Cart</a>
         </nav>
-
-    
       </header>
 
-      {/* Secondary Navbar */}
-      <nav className="secondary-navbar">
-        <SecNav />
-      </nav>
+      
     </>
   );
 };

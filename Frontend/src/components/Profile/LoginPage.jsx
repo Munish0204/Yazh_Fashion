@@ -1,5 +1,6 @@
 import { useState } from "react";
-import './LoginPage.css'
+import "./LoginPage.css";
+import { Link } from "react-router-dom";
 
 const LoginPage = ({ onLogin }) => {
   const [email, setEmail] = useState("");
@@ -42,9 +43,11 @@ const LoginPage = ({ onLogin }) => {
               required
             />
           </div>
-          <button type="submit" className="login-button">
-            Login
-          </button>
+          <Link to="/Profile">
+            <button type="submit" className="login-button">
+              Login
+            </button>
+          </Link>
         </form>
         <p className="login-footer">
           Don't have an account? <a href="#">Sign up</a>

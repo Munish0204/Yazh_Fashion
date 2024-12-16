@@ -1,22 +1,26 @@
 /* Header Styles */
+@import url("https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Noto+Serif+JP&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200&family=Playwrite+NL+Guides&display=swap");
 
 .header {
   display: flex;
+  height: 12vh;
   justify-content: space-around;
   align-items: center;
-  padding: 10px;
   background-color: #ffb300;
   animation: fadeIn 0.5s ease-out;
   position: sticky;
   top: 0.1px;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .logo {
-  font-size: 24px;
-  font-weight: bold;
+  font-family: "Lavishly Yours", cursive;
+  font-size: 40px;
+  letter-spacing: 3px;
+  font-weight: 800;
+  font-style: normal;
   color: #333;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   animation: slideInFromLeft 0.5s ease-out;
 }
 
@@ -207,10 +211,4 @@
   100% {
     transform: scale(1.2);
   }
-}
-
-.logo {
-  height: 60px;
-  border-radius: 50%;
-  cursor: pointer;
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { SecNav } from "../../components/Header/SecNav/SecNav";
 import "./Home.css"; // Add CSS styles here
 
 function Home() {
@@ -28,6 +29,11 @@ function Home() {
 
   return (
     <main className="main-content">
+      {/* Secondary Navbar */}
+      <nav className="secondary-navbar">
+        <SecNav />
+      </nav>
+
       {/* Header */}
       <h1>Welcome to Yazh Fashion</h1>
       <p>Explore our trendy collections and amazing offers!</p>
@@ -68,109 +74,109 @@ function Home() {
 
       {/* Cards */}
       <div className="home-container">
-          <div className="card">
-            <img
-              src="https://via.placeholder.com/300"
-              alt="Product"
-              className="card-image"
-            />
-            <div className="card-content">
-              <h3>Product Name</h3>
-              <p>Description of the product goes here.</p>
-              <button className="card-button">View More</button>
-            </div>
+        <div className="card">
+          <img
+            src="https://via.placeholder.com/300"
+            alt="Product"
+            className="card-image"
+          />
+          <div className="card-content">
+            <h3>Product Name</h3>
+            <p>Description of the product goes here.</p>
+            <button className="card-button">View More</button>
           </div>
+        </div>
 
-          <div className="card">
-            <img
-              src="https://via.placeholder.com/300"
-              alt="Product"
-              className="card-image"
-            />
-            <div className="card-content">
-              <h3>Product Name</h3>
-              <p>Description of the product goes here.</p>
-              <button className="card-button">View More</button>
-            </div>
+        <div className="card">
+          <img
+            src="https://via.placeholder.com/300"
+            alt="Product"
+            className="card-image"
+          />
+          <div className="card-content">
+            <h3>Product Name</h3>
+            <p>Description of the product goes here.</p>
+            <button className="card-button">View More</button>
           </div>
+        </div>
 
-          <div className="card">
-            <img
-              src="https://via.placeholder.com/300"
-              alt="Product"
-              className="card-image"
-            />
-            <div className="card-content">
-              <h3>Product Name</h3>
-              <p>Description of the product goes here.</p>
-              <button className="card-button">View More</button>
-            </div>
+        <div className="card">
+          <img
+            src="https://via.placeholder.com/300"
+            alt="Product"
+            className="card-image"
+          />
+          <div className="card-content">
+            <h3>Product Name</h3>
+            <p>Description of the product goes here.</p>
+            <button className="card-button">View More</button>
           </div>
+        </div>
 
-          <div className="card">
-            <img
-              src="https://via.placeholder.com/300"
-              alt="Product"
-              className="card-image"
-            />
-            <div className="card-content">
-              <h3>Product Name</h3>
-              <p>Description of the product goes here.</p>
-              <button className="card-button">View More</button>
-            </div>
+        <div className="card">
+          <img
+            src="https://via.placeholder.com/300"
+            alt="Product"
+            className="card-image"
+          />
+          <div className="card-content">
+            <h3>Product Name</h3>
+            <p>Description of the product goes here.</p>
+            <button className="card-button">View More</button>
           </div>
+        </div>
 
-          <div className="card">
-            <img
-              src="https://via.placeholder.com/300"
-              alt="Product"
-              className="card-image"
-            />
-            <div className="card-content">
-              <h3>Product Name</h3>
-              <p>Description of the product goes here.</p>
-              <button className="card-button">View More</button>
-            </div>
+        <div className="card">
+          <img
+            src="https://via.placeholder.com/300"
+            alt="Product"
+            className="card-image"
+          />
+          <div className="card-content">
+            <h3>Product Name</h3>
+            <p>Description of the product goes here.</p>
+            <button className="card-button">View More</button>
           </div>
+        </div>
 
-          <div className="card">
-            <img
-              src="https://via.placeholder.com/300"
-              alt="Product"
-              className="card-image"
-            />
-            <div className="card-content">
-              <h3>Product Name</h3>
-              <p>Description of the product goes here.</p>
-              <button className="card-button">View More</button>
-            </div>
+        <div className="card">
+          <img
+            src="https://via.placeholder.com/300"
+            alt="Product"
+            className="card-image"
+          />
+          <div className="card-content">
+            <h3>Product Name</h3>
+            <p>Description of the product goes here.</p>
+            <button className="card-button">View More</button>
           </div>
+        </div>
 
-          <div className="card">
-            <img
-              src="https://via.placeholder.com/300"
-              alt="Product"
-              className="card-image"
-            />
-            <div className="card-content">
-              <h3>Product Name</h3>
-              <p>Description of the product goes here.</p>
-              <button className="card-button">View More</button>
-            </div>
+        <div className="card">
+          <img
+            src="https://via.placeholder.com/300"
+            alt="Product"
+            className="card-image"
+          />
+          <div className="card-content">
+            <h3>Product Name</h3>
+            <p>Description of the product goes here.</p>
+            <button className="card-button">View More</button>
           </div>
+        </div>
 
-          <div className="card">
-            <img
-              src="https://via.placeholder.com/300"
-              alt="Product"
-              className="card-image"
-            />
-            <div className="card-content">
-              <h3>Product Name</h3>
-              <p>Description of the product goes here.</p>
-              <button className="card-button">View More</button>
-            </div>
+        <div className="card">
+          <img
+            src="https://via.placeholder.com/300"
+            alt="Product"
+            className="card-image"
+          />
+          <div className="card-content">
+            <h3>Product Name</h3>
+            <p>Description of the product goes here.</p>
+            <button className="card-button">View More</button>
           </div>
+        </div>
       </div>
     </main>
   );
