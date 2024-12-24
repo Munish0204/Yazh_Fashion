@@ -14,12 +14,13 @@ export const SecNav = () => {
         <div className="menu-item">
           <a href="/women-western">
             <img src={Western} alt="Women Western" />
-            Women Western
+            Casual wears
           </a>
           <div className="dropdown-menu">
-            <a href="/women-western/tops"> T-Shirts</a>
-            <a href="/women-western/dresses">Skirts</a>
-            <a href="/women-western/jeans">Jeans</a>
+            <a href="/women-western/tops"> Side open tops</a>
+            <a href="/women-western/dresses">Anarkali tops</a>
+            <a href="/women-western/jeans">2 and 3 piece sets</a>
+            <a href="/women-western/jeans">Duppatta</a>
           </div>
         </div>
 
@@ -31,10 +32,12 @@ export const SecNav = () => {
           </a>
           <div className="dropdown-menu">
             <h4>
-              <a href="/bottom/angle">Ankle Leggings</a>
-              <a href="/bottom/straight">Straight Pant</a>
-              <a href="/bottom/cigar">Cigar Pant</a>
-              <a href="/bottom/length">Full-Length Leggings</a>
+              <a href="/bottom/angle">Leggings Ankle,3/4th,full</a>
+              <a href="/bottom/straight">pattiyala</a>
+              <a href="/bottom/cigar">plazzo</a>
+              <a href="/bottom/length">straight pant</a>
+              <a href="/bottom/length">cigar pant</a>
+              <a href="/bottom/length">skirt</a>
             </h4>
           </div>
         </div>
@@ -47,13 +50,10 @@ export const SecNav = () => {
           </a>
           <div className="dropdown-menu">
             <h4>
-              <a href="ethnic/sideopentop">Side Open Tops</a>
-              <a href="/ethnic/anarkali">Anarkali Tops</a>
-              <a href="/ethnic/palazzo">Palazzo’s</a>
-              <a href="/ethnic/duppatta">Duppatta</a>
-              <a href="/ethnic/straigth">Straight Pant</a>
-              <a href="/ethnic/cigar">Cigar Pant</a>
-              <a href="/ethnic/ready">Ready-Made Blouses</a>
+              <a href="/ethnic/duppatta">designer anarkali tops</a>
+              <a href="/ethnic/straigth">designer side open tops</a>
+              <a href="/ethnic/cigar">designer duppatta</a>
+              <a href="/ethnic/ready">2 and 3 piece sets </a>
             </h4>
           </div>
         </div>
@@ -68,6 +68,8 @@ export const SecNav = () => {
     <h4>
       <a href="/night/nighty">Nighty</a>
       <a href="/night/night">Night Suit</a>
+      <a href="/night/night">T-shirt’s</a>
+      <a href="/night/night">track pants</a>
     </h4>
     </div>
   </div>
@@ -81,7 +83,11 @@ export const SecNav = () => {
   <div className="dropdown-menu">
     <h4>
       <a href="/inner/bra">Bra</a>
-      <a href="/inner/briefs">Briefs</a>
+      <a href="/inner/briefs">panties</a>
+      <a href="/inner/briefs">slips</a>
+      <a href="/inner/briefs">nighty slip</a>
+      <a href="/inner/briefs">slips</a>
+      <a href="/inner/briefs">Bra’s attached slips</a>
     </h4>
     </div>
   </div>

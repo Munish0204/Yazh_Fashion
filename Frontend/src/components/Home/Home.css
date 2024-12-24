@@ -1,7 +1,5 @@
 /* Container for the entire page */
-body{
-  overflow: hidden;
-}
+
 .main-content {
     padding: 20px;
     text-align: center;
@@ -215,4 +213,10 @@ body{
   100% {
     transform: scale(1.2);
   }
+}
+
+
+/* Style the entire scrollbar */
+::-webkit-scrollbar {
+  width: 1px; /* Width of the scrollbar */ /* Height of the scrollbar (for horizontal scrollbars) */
 }

@@ -45,8 +45,7 @@ const Header = () => {
           <Link to="/">🏠 Home</Link>
           <Link to="/Product">🛍️ Products</Link>
           <Link to="/LoginPage">👤 Profile</Link>
-          <a href="/Favorite">❤️ Favorite</a>
-          <a href="/cart"> 🛒 Cart</a>
+          <Link to="/cart"> 🛒 Cart</Link>
         </nav>
       </header>
 
