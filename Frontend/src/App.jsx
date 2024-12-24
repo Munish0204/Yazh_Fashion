@@ -26,10 +26,6 @@ function App() {
         <Route path="/women-western/dresses" element={<SkirtsPage />} />
         <Route path="/women-western/jeans" element={<JeansPage />} />
       </Routes>
-
-      {/* Header */}
-
-      {/* Main Content */}
       
 
       {/* Footer */}
