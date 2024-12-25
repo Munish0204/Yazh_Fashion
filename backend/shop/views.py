@@ -56,3 +56,9 @@ class ProductView(APIView):
         
         serializer = ProductSerializer(product)
         return Response(serializer.data, status=status.HTTP_200_OK)
+
+class HomeView(APIView):
+    def get(self, request):
+        home = Product.objects.filter(trending = True)
+        serializer = ProductSerializer(home, many = True)
+        return Response(serializer.data, status=status.HTTP_200_OK)
