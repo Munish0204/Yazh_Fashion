@@ -5,7 +5,7 @@ import Home from "./components/Home/Home";
 import LoginPage from "./components/Profile/LoginPage.jsx";
 import Profile from "./components/Profile/Profiles.jsx";
 import Product from "./components/Product/Product.jsx";
-
+import SearchResults from "./components/Home/searchresults.jsx";
 import TShirtsPage from "./pages/Western/TShirtsPage";
 import SkirtsPage from "./pages/Western/SkirtsPage";
 import JeansPage from "./pages/Western/JeansPage";
@@ -22,6 +22,7 @@ function App() {
         <Route path="/Profile" element={<Profile />} />
         <Route path="/Product" element={<Product />} />
         <Route path="/Loginpage" element={<LoginPage />} />
+        <Route path="/search" element={<SearchResults />} />
         <Route path="/women-western/tops" element={<TShirtsPage />} />
         <Route path="/women-western/dresses" element={<SkirtsPage />} />
         <Route path="/women-western/jeans" element={<JeansPage />} />

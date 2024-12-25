@@ -1,6 +1,33 @@
 /* Header Styles */
 @import url("https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Noto+Serif+JP&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200&family=Playwrite+NL+Guides&display=swap");
+/* ...existing code... */
 
+.search-suggestions {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 280px;
+  max-height: 200px;
+  overflow-y: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+  margin-top: 12vh;
+}
+
+.search-suggestions li {
+  list-style-type: none;
+  padding: 10px;
+  margin-left: -40px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-suggestions li:hover {
+  background-color: #3333332e;
+}
+
+/* ...existing code... */
 .header {
   display: flex;
   height: 12vh;
