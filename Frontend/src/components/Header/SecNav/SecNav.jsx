@@ -13,15 +13,15 @@ export const SecNav = () => {
       <nav className="secondary-navbar">
         {/* Western Dropdown */}
         <div className="menu-item">
-          <Link to="/women-western/tops">
-            <img src={Western} alt="Women Western" />
+          <Link to="/Casual-wear/tops">
+            <img src={Western} alt="Casual-wear" />
             Casual wears
           </Link>
           <div className="dropdown-menu">
-            <Link to="/women-western/tops"> Side open tops</Link>
-            <Link to="/women-western/dresses">Anarkali tops</Link>
-            <Link to="/women-western/jeans">2 and 3 piece sets</Link>
-            <Link to="/women-western/duppatta">Duppatta</Link>
+            <Link to="/Casual-wear/SideOpenTop"> Side open tops</Link>
+            <Link to="/Casual-wear/Anarkali">Anarkali tops</Link>
+            <Link to="/Casual-wear/PieceSets">2 and 3 piece sets</Link>
+            <Link to="/Casual-wear/duppatta">Duppatta</Link>
           </div>
         </div>
 
@@ -33,12 +33,12 @@ export const SecNav = () => {
           </a>
           <div className="dropdown-menu">
             <h4>
-              <a href="/bottom/angle">Leggings Ankle,3/4th,full</a>
-              <a href="/bottom/straight">pattiyala</a>
-              <a href="/bottom/cigar">plazzo</a>
-              <a href="/bottom/length">straight pant</a>
-              <a href="/bottom/length">cigar pant</a>
-              <a href="/bottom/length">skirt</a>
+              <Link to="/bottom/leggings">Leggings Ankle,3/4th,full</Link>
+              <Link to="/bottom/Patiala">Patiala</Link>
+              <Link to="/bottom/Plazzo">Plazzo</Link>
+              <Link to="/bottom/straightPant">Straight pant</Link>
+              <Link to="/bottom/CigarPant">Cigar pant</Link>
+              <Link to="/bottom/Skirt">Skirt</Link>
             </h4>
           </div>
         </div>

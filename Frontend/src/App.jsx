@@ -10,6 +10,12 @@ import TShirtsPage from "./pages/Western/TShirtsPage";
 import SkirtsPage from "./pages/Western/SkirtsPage";
 import JeansPage from "./pages/Western/JeansPage";
 import Duppatta from "./pages/Western/Duppatta.jsx";
+import Leggings from "./pages/Bottom/Leggings.jsx"; 
+import Patiala from "./pages/Bottom/Patiala.jsx";
+import Plazzo from "./pages/Bottom/Plazzo.jsx";
+import Straight from "./pages/Bottom/Straight.jsx";
+import Cigar from "./pages/Bottom/Cigar.jsx";
+import Skirt from "./pages/Bottom//Skirt.jsx"
 import "./App.css";
 
 function App() {
@@ -24,10 +30,17 @@ function App() {
         <Route path="/Product" element={<Product />} />
         <Route path="/Loginpage" element={<LoginPage />} />
         <Route path="/search" element={<SearchResults />} />
-        <Route path="/women-western/tops" element={<TShirtsPage />} />
-        <Route path="/women-western/dresses" element={<SkirtsPage />} />
-        <Route path="/women-western/jeans" element={<JeansPage />} />
-        <Route path="/women-western/duppatta" element={<Duppatta />} />
+        <Route path="/Casual-wear/SideOpenTop" element={<TShirtsPage />} />
+        <Route path="/Casual-wear/Anarkali" element={<SkirtsPage />} />
+        <Route path="/Casual-wear/PieceSets" element={<JeansPage />} />
+        <Route path="/Casual-wear/duppatta" element={<Duppatta />} />
+        <Route path="/bottom/leggings" element={<Leggings />} />
+        <Route path="/bottom/patiala" element={<Patiala />} />
+        <Route path="/bottom/plazzo" element={<Plazzo />} />
+        <Route path="/bottom/straightPant" element={<Straight />} />
+        <Route path="/bottom/CigarPant" element={<Cigar />} />
+        <Route path="/bottom/Skirt" element={<Skirt />} />
+
       </Routes>
       
 

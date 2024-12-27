@@ -1,15 +1,15 @@
-import { useState } from "react";
-import "./SkirtsPage.css"; // CSS for styling
+import React, { useState } from "react";
+import "./Plazzo.css"; // CSS for styling
 import { SecNav } from "../../components/Header/SecNav/SecNav";
 
-const SkirtsPage = () => {
+const PlazzoPage = () => {
   const products = [
-    { id: 1, name: "Pleated Skirt", price: 799, rating: 4.5, image: "/images/skirt1.jpg" },
-    { id: 2, name: "Denim Skirt", price: 899, rating: 4, image: "/images/skirt2.jpg" },
-    { id: 3, name: "A-Line Skirt", price: 699, rating: 3.5, image: "/images/skirt3.jpg" },
-    { id: 4, name: "Mini Skirt", price: 499, rating: 4.2, image: "/images/skirt4.jpg" },
-    { id: 5, name: "Wrap Skirt", price: 749, rating: 4.8, image: "/images/skirt5.jpg" },
-    { id: 6, name: "Floral Skirt", price: 999, rating: 5, image: "/images/skirt6.jpg" },
+    { id: 1, name: "Silk Plazzo", price: 899, rating: 4.5, image: "/images/plazzo1.jpg" },
+    { id: 2, name: "Cotton Plazzo", price: 499, rating: 4.2, image: "/images/plazzo2.jpg" },
+    { id: 3, name: "Embroidered Plazzo", price: 1299, rating: 4.8, image: "/images/plazzo3.jpg" },
+    { id: 4, name: "Printed Plazzo", price: 699, rating: 4.3, image: "/images/plazzo4.jpg" },
+    { id: 5, name: "Chiffon Plazzo", price: 799, rating: 4.1, image: "/images/plazzo5.jpg" },
+    { id: 6, name: "Linen Plazzo", price: 999, rating: 4.6, image: "/images/plazzo6.jpg" },
   ];
 
   const [filteredProducts, setFilteredProducts] = useState(products);
@@ -43,15 +43,15 @@ const SkirtsPage = () => {
   };
 
   return (
-    <div className="skirts-page">
+    <div className="plazzo-page">
       <SecNav />
-      <h1 className="page-title">Anarkali Collection</h1>
+      <h1 className="page-title">Plazzo Collection</h1>
 
       {/* Search and Sort */}
       <div className="controls">
         <input
           type="text"
-          placeholder="Search Anarkalli..."
+          placeholder="Search Plazzos..."
           value={searchTerm}
           onChange={handleSearch}
           className="search-bar"
@@ -96,4 +96,4 @@ const SkirtsPage = () => {
   );
 };
 
-export default SkirtsPage;
+export default PlazzoPage;

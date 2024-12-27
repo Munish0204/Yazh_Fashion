@@ -1,15 +1,15 @@
-import { useState } from "react";
-import "./SkirtsPage.css"; // CSS for styling
+import React, { useState } from "react";
+import "./Straight.css"; // CSS for styling
 import { SecNav } from "../../components/Header/SecNav/SecNav";
 
-const SkirtsPage = () => {
+const StraightPantPage = () => {
   const products = [
-    { id: 1, name: "Pleated Skirt", price: 799, rating: 4.5, image: "/images/skirt1.jpg" },
-    { id: 2, name: "Denim Skirt", price: 899, rating: 4, image: "/images/skirt2.jpg" },
-    { id: 3, name: "A-Line Skirt", price: 699, rating: 3.5, image: "/images/skirt3.jpg" },
-    { id: 4, name: "Mini Skirt", price: 499, rating: 4.2, image: "/images/skirt4.jpg" },
-    { id: 5, name: "Wrap Skirt", price: 749, rating: 4.8, image: "/images/skirt5.jpg" },
-    { id: 6, name: "Floral Skirt", price: 999, rating: 5, image: "/images/skirt6.jpg" },
+    { id: 1, name: "Formal Straight ", price: 1199, rating: 4.6, image: "/images/straightpant1.jpg" },
+    { id: 2, name: "Casual Straight ", price: 899, rating: 4.4, image: "/images/straightpant2.jpg" },
+    { id: 3, name: "Cotton Straight", price: 749, rating: 4.2, image: "/images/straightpant3.jpg" },
+    { id: 4, name: "Printed Straight", price: 1099, rating: 4.7, image: "/images/straightpant4.jpg" },
+    { id: 5, name: "Stretchable Straight ", price: 999, rating: 4.5, image: "/images/straightpant5.jpg" },
+    { id: 6, name: "Designer Straight ", price: 1299, rating: 4.8, image: "/images/straightpant6.jpg" },
   ];
 
   const [filteredProducts, setFilteredProducts] = useState(products);
@@ -43,15 +43,15 @@ const SkirtsPage = () => {
   };
 
   return (
-    <div className="skirts-page">
+    <div className="straight-pant-page">
       <SecNav />
-      <h1 className="page-title">Anarkali Collection</h1>
+      <h1 className="page-title">Straight Pant Collection</h1>
 
       {/* Search and Sort */}
       <div className="controls">
         <input
           type="text"
-          placeholder="Search Anarkalli..."
+          placeholder="Search Straight Pants..."
           value={searchTerm}
           onChange={handleSearch}
           className="search-bar"
@@ -96,4 +96,4 @@ const SkirtsPage = () => {
   );
 };
 
-export default SkirtsPage;
+export default StraightPantPage;
