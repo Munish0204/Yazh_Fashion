@@ -5,6 +5,7 @@ import Bottom from "../../../assets/Nav pic/Bottom wear.png";
 import party from "../../../assets/Nav pic/party.png";
 import Night from "../../../assets/Nav pic/nightwear.png";
 import inner from "../../../assets/Nav pic/inner.png";
+import { Link } from "react-router-dom";
 
 export const SecNav = () => {
   return (
@@ -12,15 +13,15 @@ export const SecNav = () => {
       <nav className="secondary-navbar">
         {/* Western Dropdown */}
         <div className="menu-item">
-          <a href="/women-western">
+          <Link to="/women-western/tops">
             <img src={Western} alt="Women Western" />
             Casual wears
-          </a>
+          </Link>
           <div className="dropdown-menu">
-            <a href="/women-western/tops"> Side open tops</a>
-            <a href="/women-western/dresses">Anarkali tops</a>
-            <a href="/women-western/jeans">2 and 3 piece sets</a>
-            <a href="/women-western/jeans">Duppatta</a>
+            <Link to="/women-western/tops"> Side open tops</Link>
+            <Link to="/women-western/dresses">Anarkali tops</Link>
+            <Link to="/women-western/jeans">2 and 3 piece sets</Link>
+            <Link to="/women-western/duppatta">Duppatta</Link>
           </div>
         </div>
 

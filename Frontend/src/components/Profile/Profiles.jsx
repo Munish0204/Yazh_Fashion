@@ -5,6 +5,7 @@ import "./Profile.css";
 
 
 
+
 const Profiles = () => {
   const [user, setUser] = useState({
     name: "John Doe",

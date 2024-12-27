@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./TShirtsPage.css"; // CSS for styling
-
+import "./TShirtsPage.css"; 
+import { SecNav } from "../../components/Header/SecNav/SecNav";
 const TShirtsPage = () => {
   const products = [
     { id: 1, name: "Casual T-Shirt", price: 499, rating: 4.5, image: "/images/tshirt1.jpg" },
@@ -42,14 +42,16 @@ const TShirtsPage = () => {
   };
 
   return (
+
     <div className="tshirt-page">
-      <h1 className="page-title">T-Shirts Collection</h1>
+      <SecNav />
+      <h1 className="page-title">SideOpenTop Collection</h1>
 
       {/* Search and Sort */}
       <div className="controls">
         <input
           type="text"
-          placeholder="Search T-Shirts..."
+          placeholder="Search SideOpenTop..."
           value={searchTerm}
           onChange={handleSearch}
           className="search-bar"

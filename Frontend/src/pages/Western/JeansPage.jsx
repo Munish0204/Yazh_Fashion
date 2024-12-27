@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./JeansPage.css"; // CSS for styling
+import { SecNav } from "../../components/Header/SecNav/SecNav";
 
 const JeansPage = () => {
   const products = [
@@ -43,13 +44,14 @@ const JeansPage = () => {
 
   return (
     <div className="jeans-page">
-      <h1 className="page-title">Jeans Collection</h1>
+      <SecNav />
+      <h1 className="page-title">2 and 3 PieceSets Collection</h1>
 
       {/* Search and Sort */}
       <div className="controls">
         <input
           type="text"
-          placeholder="Search Jeans..."
+          placeholder="Search 2 and 3 PieceSets Collection..."
           value={searchTerm}
           onChange={handleSearch}
           className="search-bar"

@@ -1,15 +1,15 @@
 import { useState } from "react";
-import "./SkirtsPage.css"; // CSS for styling
+import "./Duppatta.css"; // CSS for styling
 import { SecNav } from "../../components/Header/SecNav/SecNav";
 
-const SkirtsPage = () => {
+const DupattaPage = () => {
   const products = [
-    { id: 1, name: "Pleated Skirt", price: 799, rating: 4.5, image: "/images/skirt1.jpg" },
-    { id: 2, name: "Denim Skirt", price: 899, rating: 4, image: "/images/skirt2.jpg" },
-    { id: 3, name: "A-Line Skirt", price: 699, rating: 3.5, image: "/images/skirt3.jpg" },
-    { id: 4, name: "Mini Skirt", price: 499, rating: 4.2, image: "/images/skirt4.jpg" },
-    { id: 5, name: "Wrap Skirt", price: 749, rating: 4.8, image: "/images/skirt5.jpg" },
-    { id: 6, name: "Floral Skirt", price: 999, rating: 5, image: "/images/skirt6.jpg" },
+    { id: 1, name: "Silk Dupatta", price: 799, rating: 4.7, image: "/images/dupatta1.jpg" },
+    { id: 2, name: "Cotton Dupatta", price: 499, rating: 4.2, image: "/images/dupatta2.jpg" },
+    { id: 3, name: "Embroidered Dupatta", price: 1299, rating: 4.8, image: "/images/dupatta3.jpg" },
+    { id: 4, name: "Georgette Dupatta", price: 899, rating: 4.3, image: "/images/dupatta4.jpg" },
+    { id: 5, name: "Chiffon Dupatta", price: 1099, rating: 4.5, image: "/images/dupatta5.jpg" },
+    { id: 6, name: "Linen Dupatta", price: 799, rating: 4.1, image: "/images/dupatta6.jpg" },
   ];
 
   const [filteredProducts, setFilteredProducts] = useState(products);
@@ -43,15 +43,16 @@ const SkirtsPage = () => {
   };
 
   return (
-    <div className="skirts-page">
+    <div className="dupatta-page">
       <SecNav />
-      <h1 className="page-title">Anarkalli Collection</h1>
+
+      <h1 className="page-title">Dupatta Collection</h1>
 
       {/* Search and Sort */}
       <div className="controls">
         <input
           type="text"
-          placeholder="Search Anarkalli..."
+          placeholder="Search Dupattas..."
           value={searchTerm}
           onChange={handleSearch}
           className="search-bar"
@@ -96,4 +97,4 @@ const SkirtsPage = () => {
   );
 };
 
-export default SkirtsPage;
+export default DupattaPage;

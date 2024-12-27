@@ -9,6 +9,7 @@ import SearchResults from "./components/Home/searchresults.jsx";
 import TShirtsPage from "./pages/Western/TShirtsPage";
 import SkirtsPage from "./pages/Western/SkirtsPage";
 import JeansPage from "./pages/Western/JeansPage";
+import Duppatta from "./pages/Western/Duppatta.jsx";
 import "./App.css";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Route path="/women-western/tops" element={<TShirtsPage />} />
         <Route path="/women-western/dresses" element={<SkirtsPage />} />
         <Route path="/women-western/jeans" element={<JeansPage />} />
+        <Route path="/women-western/duppatta" element={<Duppatta />} />
       </Routes>
       
 

@@ -23,6 +23,7 @@ const LoginPage = ({ onLogin }) => {
         <form className="login-form" onSubmit={handleLogin}>
           <div className="form-group">
             <label htmlFor="email">Email</label>
+
             <input
               type="email"
               id="email"
@@ -32,6 +33,7 @@ const LoginPage = ({ onLogin }) => {
               required
             />
           </div>
+
           <div className="form-group">
             <label htmlFor="password">Password</label>
             <input
@@ -50,7 +52,7 @@ const LoginPage = ({ onLogin }) => {
           </Link>
         </form>
         <p className="login-footer">
-          Don't have an account? <a href="#">Sign up</a>
+          Don't have an account? <Link href="./Signup.jsx">Sign up</Link>
         </p>
       </div>
     </div>

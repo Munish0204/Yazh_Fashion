@@ -44,9 +44,8 @@ function Home() {
 
   return (
     <main className="main-content">
-      <nav className="secondary-navbar">
-        <SecNav />
-      </nav>
+      <SecNav />
+  
 
       <h1>Welcome to Yazh Fashion</h1>
       <p>Explore our trendy collections and amazing offers!</p>
